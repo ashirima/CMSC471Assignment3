@@ -4,7 +4,7 @@ import numpy as np
 from scipy import stats
 
 # Import the data
-census_data_metro = pd.read_csv("census_data_metro.csv")
+census_data_metro = pd.read_csv("./data/census_data_metro.csv")
 white_alone = census_data_metro["white_alone_17"]
 black_alone = census_data_metro["black_alone_17"]
 asian_alone = census_data_metro["asian_alone_17"]
