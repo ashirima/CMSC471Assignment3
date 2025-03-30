@@ -64,4 +64,7 @@ plt.legend()
 plt.grid()
 plt.figtext(0.5, -0.05, "White and Asian people in metropolitan areas have more individuals with higher median incomes than Hispanic and Black people", wrap=True, horizontalalignment='center', fontsize=10)
 
+# save the figure as PNG
+plt.savefig("black_hat.png") 
+
 plt.show()
