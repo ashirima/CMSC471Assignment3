@@ -38,7 +38,7 @@ aggregated_df.set_index('metro_area').plot(kind='barh', figsize=(8, 5), color=['
 plt.ylabel('Metro Area', labelpad=10) 
 plt.xlabel('Population Change (%)', labelpad=20)  
 plt.ticklabel_format(style='plain', axis='x') 
-plt.title('Change in Population by Race from 2000 to 2017 in Gentrified Metropolitan Areas')
+plt.title('Average Change in Population by Race from 2000 to 2017 in Gentrified Metropolitan Areas')
 plt.legend()
 plt.grid(axis='x', linestyle='--', alpha=0.7)  
 plt.subplots_adjust(bottom=0.25) 
