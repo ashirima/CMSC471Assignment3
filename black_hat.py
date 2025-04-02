@@ -59,7 +59,7 @@ plt.ylim(0, 250000)
 
 plt.xlabel('Population')
 plt.ylabel('Median Income')
-plt.title('Median Income by Racial Populations in Metropolitan Areas')
+plt.title('Median Income by Racial Populations in Metropolitan Areas (2017)')
 plt.legend()
 plt.grid()
 plt.figtext(0.5, -0.05, "White and Asian people in metropolitan areas have more individuals with higher median incomes than Hispanic and Black people", wrap=True, horizontalalignment='center', fontsize=10)
